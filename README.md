@@ -14,6 +14,14 @@ So you can easily stay king. You just have to exchange the original chattr binar
 
 It will also only target the specified file. So it should stay pretty undetected...
 
+## Usage
+
+Just change these two lines:
+```c
+#define USER_NAME_TO_PRINT "fasc8"
+#define FILE_TO_PRINT_USER_NAME_TO "king.txt"
+```
+
 ## Compilation
 ```
 gcc chattr_borked.c -o chattr_borked
