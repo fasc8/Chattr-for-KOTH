@@ -16,7 +16,7 @@ It will also only target the specified file. So it should stay pretty undetected
 
 ## Usage
 
-Just change these two lines:
+Just change these two lines in [chattr_borked.c](chattr_borked.c):
 ```c
 #define USER_NAME_TO_PRINT "fasc8"
 #define FILE_TO_PRINT_USER_NAME_TO "king.txt"
